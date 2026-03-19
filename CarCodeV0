@@ -1,11 +1,15 @@
+const int leftMotorPWMPin = 9;  
+const int rightMotorPWMPin = 10; 
+const int leftCoilPin = A5;
+const int rightCoilPin = A2;
 
 const int leftMotorPWMPin = 9;  
 const int rightMotorPWMPin = 10; 
 
 
 int baseSpeed = 100; 
-float Kp = 1.5;      
-float Kd = 0.5;      
+float Kp = 2.2;      
+float Kd = 0.75;      
 
 
 int previousError = 0; 
